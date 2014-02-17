@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+a, .bodyContent {
+	color:white;
+}
+a.link{
+	color: black;
+	decoration: underlined;
+}
+.hide {
+	display: none;
+}
+.signupStep{
+	width: 200px;
+	height: 200px;
+	background-color: white;
+}
+.stepTitleText{
+	position: relative; 
+	left: 39%
+}
+.prevStep{
+	float: left;
+}
+.nextStep{
+	float: right;
+}
+.hand{
+	cursor: pointer;
+}
+.stepEndProcess{
+	position: absolute;
+	bottom: 2%;
+	left: 81%;
+}
+.bodyContainer{
+	position: absolute;
+	background-image:url('../../assets/images/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity: 0.65;
+	width: 100%;
+	height: 100%;
+    top: 0;
+    left: 0;
+}
+.bodyContent {
+	position: absolute;
+    top: 10px;
+    left: 10px;
+}
